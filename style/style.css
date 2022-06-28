@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: 'Quicksand', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  background-color: #1567ff;
+  overflow: hidden;
+}
+
+#main {
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+
+#logo {
+  left: 110px;
+  top: 12%;
+  position: absolute;
+}
+
+#logo i {
+  font-size: 50px;
+}
+
+#title h1 {
+  overflow: hidden;
+  z-index: 1;
+  position: absolute;
+  left: 110px;
+  top: 40%;
+  font-weight: 400;
+  font-size: 65px;
+}
+
+#title h1 span {
+  display: inline-block;
+}
+
+#details {
+  position: absolute;
+  left: 110px;
+  font-size: 18px;
+  bottom: 10%;
+  width: 80%;
+  line-height: 29px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: top;
+      -ms-flex-align: top;
+          align-items: top;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#details #first p, #details #second p, #details #third p {
+  line-height: 20px;
+  font-size: 16px;
+  padding-top: 20px;
+  border-top: 1px solid white;
+}
+
+#details #first h1, #details #second h1, #details #third h1 {
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+
+#img {
+  position: absolute;
+  width: 73%;
+  z-index: 0;
+  left: 14%;
+  height: 60%;
+}
+
+#img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#img #fuck {
+  z-index: 99;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+}
+
+#img #fuck #upar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 50%;
+}
+
+#img #fuck #upar li {
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border: 1px solid #1567ff;
+}
+
+#img #fuck #upar li:nth-child(5) {
+  background-color: #1567ff;
+  border-right: 1px solid #adadad;
+}
+
+#img #fuck #upar li #t {
+  top: 0%;
+  position: absolute;
+  height: 50%;
+  width: 0%;
+  left: 0%;
+  background-color: #1567ff;
+}
+
+#img #fuck #upar li #b {
+  right: 0%;
+  background-color: #1567ff;
+  bottom: 0%;
+  position: absolute;
+  height: 50%;
+  width: 0%;
+}
+
+#img #fuck #neeche {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 50%;
+}
+
+#img #fuck #neeche li {
+  list-style: none;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border: 1px solid #1567ff;
+}
+
+#img #fuck #neeche li:nth-child(1) {
+  background-color: #1567ff;
+}
+
+#img #fuck #neeche li #t {
+  top: 0%;
+  position: absolute;
+  height: 50%;
+  width: 0%;
+  left: 0%;
+  background-color: #1567ff;
+}
+
+#img #fuck #neeche li #b {
+  right: 0%;
+  background-color: #1567ff;
+  bottom: 0%;
+  position: absolute;
+  height: 50%;
+  width: 0%;
+}
+
+#navbar {
+  padding: 30px 10px 20px 10px;
+  font-size: 14px;
+  width: 250px;
+  position: absolute;
+  right: 0px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 280px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-bottom: 1px solid #adadad;
+}
+
+#navbar #top {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#navbar #top h2 {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+#navbar #mid {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 190px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#navbar #mid h2 {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+#navbar #btm {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#navbar h2 {
+  padding-top: 20px 30px 5px 30px;
+  font-weight: 600;
+}
+/*# sourceMappingURL=style.css.map */
